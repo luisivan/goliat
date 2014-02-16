@@ -1,0 +1,44 @@
+<div class="jumbotron">
+  <div class="container">
+  	<div class="row">
+  		<div class="col-md-7">
+			<iframe width="640" height="360" src="http://www.youtube.com/embed/NJgLw20H9Vk" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="col-md-5">
+			<h1>Filosofía Goliat</h1>
+			<p>Todos tenemos algo que enseñar, y algo que aprender. Proyecto Goliat nace con el propósito de hacer crecer a la sociedad aupándola sobre el conocimiento.</p>
+			<h1>Sobre Nosotros</h1>
+			<p>Proyecto Goliat refuerza el aprendizaje de bachillerato con contenidos de calidad en video. En un futuro ofrecerá todas lecciones impartidas en Bachiller en videotutoriales, de forma clara y sencilla.</p>
+		</div>
+	</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row" id="homeCols">
+	<div class="col-md-3">
+	  <p>¿Eres profesor o te gusta enseñar?</p>
+	</div>
+	<div class="col-md-3">
+	  <p>Graba tu videoclase explicando contenidos de bachillerato</p>
+    </div>
+	<div class="col-md-3">
+	  <p>Sube tu videoclase a YouTube</p>
+	</div>
+	<div class="col-md-3">
+	  <p>Para que tu video salga en Proyecto Goliat sólo tendrás que enviar el link</p>
+	</div>
+  </div>
+  <a id="sendButton" class="btn btn-default btn-lg" href="enviar.html" role="button" id="enviarButton">Enviar videoclase</a>
+</div>
+<script>
+function resize() {
+	if ($(window).width() < 1200) {
+		$('iframe').attr('width', 520)
+	} else {
+		$('iframe').attr('width', 640)
+	}
+}
+$(window).resize(resize)
+resize()
+</script>

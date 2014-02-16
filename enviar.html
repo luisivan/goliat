@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="favicon.png">
+	<title>Proyecto Goliat</title>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	  <div class="container">
+		  <a class="navbar-brand" href="index.html">Proyecto Goliat</a>
+		  <span>A lomos de un gigante</span>
+		  <div class="navbar-form navbar-right">
+			  <input type="text" placeholder="¿Qué quieres aprender?" class="form-control" id="search">
+		  </div>
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="1bach.html">1º Bachillerato</a></li>
+			<li><a href="2bach.html">2º Bachillerato</a></li>
+			<li><a href="enviar.html">Enviar videoclase</a></li>
+		  </ul>
+	  </div>
+	</div>
+
+	<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{window.location='gracias.html';}"></iframe>
+<div class="jumbotron">
+  <div class="container">
+  <h1 class="center enviar">Enviar videoclase</h1>
+  	<div class="col-md-3"></div>
+  	<div class="col-md-6">
+  <form class="form-horizontal" role="form" action="https://docs.google.com/forms/d/1aBxKm3XBJHt0Vn0HM7SiI7PNyrMJlp4TiNr-AH3ZBg4/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;">
+  <div class="form-group">
+    <label class="col-sm-4 control-label">Nombre y apellidos</label>
+    <div class="col-sm-8">
+      <input class="form-control" type="text" name="entry.1188071359" dir="auto" required="">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-4 control-label">Email</label>
+    <div class="col-sm-8">
+      <input class="form-control" type="text" name="entry.2084392685" dir="auto" required="">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-4 control-label">Link</label>
+    <div class="col-sm-8">
+      <input class="form-control" type="text" name="entry.1396753609" dir="auto" required="">
+    </div>
+  </div>
+  <div class="form-group">
+  	<label class="col-sm-4 control-label">Curso</label>
+  	<div class="col-sm-8">
+	  	<select class="form-control" name="entry.42942736" required="">
+		  	<option value=""></option>
+			<option value="1º de Bachillerato">1º de Bachillerato</option>
+			<option value="2º de Bachillerato">2º de Bachillerato</option>
+		</select>
+	</div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-4 control-label">Asignatura</label>
+    <div class="col-sm-8">
+      <input class="form-control" type="text" name="entry.462244465" dir="auto" required="">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-4 control-label">Tema de bachillerato donde incluirías el video</label>
+    <div class="col-sm-8">
+      <input class="form-control" type="text" name="entry.277828318" dir="auto" required="">
+    </div>
+  </div>
+  <input type="hidden" name="draftResponse" value="[,,&quot;-4817003231242174573&quot;]
+			">
+			<input type="hidden" name="pageHistory" value="0">
+			<input type="hidden" name="fromEmail" value="false">
+			<input type="hidden" name="fbzx" value="-4817003231242174573">
+  <div class="form-group">
+    <div class="col-sm-offset-4 col-sm-10">
+      <button name="submit" type="submit" class="btn btn-primary btn-lg">Enviar videoclase</button>
+    </div>
+  </div>
+  </form>
+  </div>
+
+
+			
+  </div>
+</div>
+	
+	<div class="container">
+		<hr>
+		<footer>
+			<p>© Proyecto Goliat 2014</p>
+			<p id="support">
+			Con el apoyo de:
+			<img src='img/think_big.png'>
+			<img src='img/tef.jpg'>
+			</p>
+
+			<a href="mailto:plataformagoliat@gmail.com" id="contacto">Contacto</a>
+	  	</footer>
+	</div>
+<script>
+	$('#search').keypress(function(event){
+		var keycode = (event.keyCode ? event.keyCode : event.which)
+		if (keycode == '13')
+			window.location = "buscar.html#"+$('#search').val()
+	})
+</script>
+</body>
+</html>

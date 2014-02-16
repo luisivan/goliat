@@ -1,0 +1,186 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+.well, .navbar-inner, .popover, .btn, .tooltip, input, select, textarea, pre, .progress, .modal, .add-on, .alert, .table-bordered, .nav>.active>a, .dropdown-menu, .tooltip-inner, .badge, .label, .img-polaroid {
+  -moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border-collapse: collapse !important;
+	background-image: none !important;
+}
+
+* {
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+body {
+	background: white;
+  	padding-top: 50px;
+  	padding-bottom: 20px;
+  	background: #35D2AB;
+  	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+body > .container {
+	color: white;
+}
+
+.navbar-right input {
+	width: 175px !important;
+}
+
+.subjects {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.subjects a {
+	display: inline-block;
+	margin-bottom: 30px;
+	color: white;
+	background: #35D2AB;
+	width: 90%;
+}
+
+.subjects .col-md-4 {
+	text-align: center;
+}
+
+.subjects .col-md-4 h1 {
+	margin-bottom: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.navbar-brand {
+	color: white !important;
+	font-size: 29px;
+}
+
+.container > span {
+	color:white;
+	line-height: 50px;
+}
+
+.navbar-fixed-top {
+	background: #212326;
+}
+
+.jumbotron > .container {
+	background: white;
+	padding:30px;
+}
+
+.jumbotron h1 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+.jumbotron p {
+	font-size: 17px;
+	line-height: 24px;
+}
+
+h1.center {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+#homeCols {
+	margin-bottom: 100px;
+}
+
+#homeCols .col-md-3 {
+	background-repeat: no-repeat;
+	height: 150px;
+	padding-top: 150px;
+	background-position: center;
+	text-align: center;
+	font-size: 22px;
+}
+
+#homeCols .col-md-3:nth-child(1) {
+	background-image: url(img/1.png);
+}
+#homeCols .col-md-3:nth-child(2) {
+	background-image: url(img/2.png);
+}
+#homeCols .col-md-3:nth-child(3) {
+	background-image: url(img/3.png);
+}
+#homeCols .col-md-3:nth-child(4) {
+	background-image: url(img/4.png);
+}
+#homeCols .col-md-3:nth-child(4) a.btn {
+	width: 100%;
+	margin-top: 20px;
+}
+
+#sendButton {
+	margin: auto;
+	margin-bottom: 80px;
+	text-align: center;
+	width: 250px;
+	text-transform: uppercase;
+	display: block;
+	margin-left: 500px;
+}
+
+.span2 {
+	float: left;
+	margin-right: 30px; 
+}
+
+.span2:last-child {
+	margin-right: 0px; 
+}
+
+h1.enviar {
+	margin-bottom: 30px;
+}
+
+.btn-primary.btn-lg {
+	background: #35D2AB;
+	font-weight: bold;
+}
+
+.video h1 {
+	margin-left: 20px;
+}
+
+footer * {
+	display: inline-block;
+}
+
+footer a {
+	color: white;
+	float: right;
+}
+
+footer img {
+	vertical-align: middle;
+}
+
+#support {
+	margin-left: 100px;
+}
+
+#contacto {
+	margin-top: 20px;
+}
+
+#contacto {
+	float: right;
+}
+
+.thumbnails .span2 {
+	margin-bottom: 30px;
+	text-align: center;
+}

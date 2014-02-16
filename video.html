@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="favicon.png">
+	<title>Proyecto Goliat</title>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	  <div class="container">
+		  <a class="navbar-brand" href="index.html">Proyecto Goliat</a>
+		  <span>A lomos de un gigante</span>
+		  <div class="navbar-form navbar-right">
+			  <input type="text" placeholder="¿Qué quieres aprender?" class="form-control" id="search">
+		  </div>
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="1bach.html">1º Bachillerato</a></li>
+			<li><a href="2bach.html">2º Bachillerato</a></li>
+			<li><a href="enviar.html">Enviar videoclase</a></li>
+		  </ul>
+	  </div>
+	</div>
+
+	<div class="jumbotron">
+  <div class="container">
+  	<div class="row video">
+  		<div class="col-md-9">
+			<iframe id="video" width="853" height="480" src="http://www.youtube.com/embed/nbSHvHbnhrE" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="col-md-3">
+			<h1>BLABL ABLABLAB LAAAAAAAAA AAAAAAA AAAAA AA AAAAAAAAAA AAAAAA</h1>
+		</div>
+	</div>
+  </div>
+</div>
+<script src="video.js"></script>
+	
+	<div class="container">
+		<hr>
+		<footer>
+			<p>© Proyecto Goliat 2014</p>
+			<p id="support">
+			Con el apoyo de:
+			<img src='img/think_big.png'>
+			<img src='img/tef.jpg'>
+			</p>
+
+			<a href="mailto:plataformagoliat@gmail.com" id="contacto">Contacto</a>
+	  	</footer>
+	</div>
+<script>
+	$('#search').keypress(function(event){
+		var keycode = (event.keyCode ? event.keyCode : event.which)
+		if (keycode == '13')
+			window.location = "buscar.html#"+$('#search').val()
+	})
+</script>
+</body>
+</html>

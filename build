@@ -1,0 +1,47 @@
+#!/usr/bin/env node
+
+var fs = require('fs')
+
+var pages = fs.readdirSync('pages'),
+	layout = fs.readFileSync('layout.html').toString()
+
+for (var i in pages) {
+	var content = fs.readFileSync('pages/'+pages[i]).toString(),
+		html = layout.replace(new RegExp('{{content}}', 'g'), content);
+
+	fs.writeFileSync(pages[i], html);
+}
+
+/*var Build = {};
+
+Build.html = function() {
+	console.log('Building HTML');
+	var html = fs.readFileSync('res/home.html');
+	for (var prop in config)
+		html = html.toString().replace(new RegExp('{{'+prop+'}}', 'g'), config[prop]);
+
+	fs.writeFileSync('index.html', html);
+}
+
+Build.watch = function() {
+	var watch = require('watch');
+	watch.createMonitor('.', {ignoreDotFiles: true}, function (monitor) {
+		//monitor.files['/home/mikeal/.zshrc'] // Stat object for my zshrc.
+	    monitor.on("created", function (f, stat) { });
+	    monitor.on("changed", function (f, curr, prev) {
+	    	if (f.indexOf('min.') !== -1) return;
+	    	console.log(f + ' was modified');
+	    	var ext = f.split('.').pop();
+	    	if (ext == 'css' || ext == 'js') Build[ext]();
+	    });
+	    monitor.on("removed", function (f, stat) { });
+	});
+}
+
+	var drafts = fs.readdirSync('post/drafts');
+	for (var i in drafts) {
+		var stat = fs.statSync('post/drafts/' + drafts[i]);
+		if (!stat.isFile() || drafts[i].indexOf('.md') == -1)
+			continue;
+	}
+}*/
