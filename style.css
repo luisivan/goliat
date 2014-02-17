@@ -93,6 +93,10 @@ h1.center {
 	text-transform: uppercase;
 }
 
+h1.center.lista {
+	font-size: 25px;
+}
+
 #homeCols {
 	margin-bottom: 100px;
 	width: 85%;
@@ -171,7 +175,7 @@ footer img {
 }
 
 #support {
-	margin-left: 100px;
+	margin-left: 250px;
 }
 
 #contacto {
