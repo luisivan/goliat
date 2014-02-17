@@ -95,6 +95,8 @@ h1.center {
 
 #homeCols {
 	margin-bottom: 100px;
+	width: 85%;
+	margin-left: 7%;
 }
 
 #homeCols .col-md-3 {
@@ -103,7 +105,7 @@ h1.center {
 	padding-top: 150px;
 	background-position: center;
 	text-align: center;
-	font-size: 22px;
+	font-size: 17px;
 }
 
 #homeCols .col-md-3:nth-child(1) {
@@ -126,11 +128,11 @@ h1.center {
 #sendButton {
 	margin: auto;
 	margin-bottom: 80px;
+	margin-top: 20px;
 	text-align: center;
 	width: 250px;
 	text-transform: uppercase;
 	display: block;
-	margin-left: 500px;
 }
 
 .span2 {
