@@ -33,14 +33,18 @@
   <div class="container">
   	<div class="row video">
   		<div class="col-md-9">
-			<iframe id="video" width="853" height="480" src="http://www.youtube.com/embed/nbSHvHbnhrE" frameborder="0" allowfullscreen></iframe>
+			<iframe id="video" width="853" height="480" src="" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div class="col-md-3">
-			<h1>BLABL ABLABLAB LAAAAAAAAA AAAAAAA AAAAA AA AAAAAAAAAA AAAAAA</h1>
+			<script id="title-template" type="text/x-handlebars-template">
+				<h1>{{cells.Título}}</h1>
+			</script>
 		</div>
 	</div>
   </div>
 </div>
+<script src="http://chriszarate.github.io/sheetrock/src/jquery.sheetrock.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.1.2/handlebars.min.js"></script>
 <script src="video.js"></script>
 	
 	<div class="container">
@@ -53,7 +57,7 @@
 			<img src='img/tef.jpg'>
 			</p>
 
-			<a href="mailto:plataformagoliat@gmail.com" id="contacto">Contacto</a>
+			<a href="mailto:plataformagoliat@gmail.com" id="contacto">Contacto: plataformagoliat@gmail.com</a>
 	  	</footer>
 	</div>
 <script>
@@ -62,6 +66,16 @@
 		if (keycode == '13')
 			window.location = "buscar.html#"+$('#search').val()
 	})
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48163025-1', 'proyectogoliat.com');
+  ga('send', 'pageview');
+
 </script>
 </body>
 </html>

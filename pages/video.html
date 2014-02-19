@@ -2,12 +2,16 @@
   <div class="container">
   	<div class="row video">
   		<div class="col-md-9">
-			<iframe id="video" width="853" height="480" src="http://www.youtube.com/embed/nbSHvHbnhrE" frameborder="0" allowfullscreen></iframe>
+			<iframe id="video" width="853" height="480" src="" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div class="col-md-3">
-			<h1>BLABL ABLABLAB LAAAAAAAAA AAAAAAA AAAAA AA AAAAAAAAAA AAAAAA</h1>
+			<script id="title-template" type="text/x-handlebars-template">
+				<h1>{{cells.Título}}</h1>
+			</script>
 		</div>
 	</div>
   </div>
 </div>
+<script src="http://chriszarate.github.io/sheetrock/src/jquery.sheetrock.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.1.2/handlebars.min.js"></script>
 <script src="video.js"></script>

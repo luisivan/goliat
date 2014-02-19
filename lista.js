@@ -1,5 +1,5 @@
-var curso = window.location.hash.split('#')[1],
-	subject = window.location.hash.split('#')[2]
+var curso = decodeURIComponent(window.location.hash.split('#')[1]),
+	subject = decodeURIComponent(window.location.hash.split('#')[2])
 
 $('h1.center').text(subject+' - '+curso)
 
