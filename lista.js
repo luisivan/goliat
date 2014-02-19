@@ -23,7 +23,7 @@ for (var i=0; i<lostemas.length; i++) {
 	  rowHandler: template,
 	  userCallback: function () {
 	  	$('a.thumbnail').each(function(i, el) {
-	  		var video_id = $(el).data('link').split('v=')[1],
+	  		var video_id = $(el).data('link').split('v=')[1].split('&')[0],
 	  			ampersandPosition = video_id.indexOf('&')
 			if(ampersandPosition != -1)
 			  video_id = video_id.substring(0, ampersandPosition)
