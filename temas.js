@@ -3,7 +3,8 @@ var temas = {
 		"Matemáticas aplicadas a las CCSS": [
 			"Operaciones de matrices",
 			"Rango de una matriz",
-			"Hallar la matriz inversa"
+			"Hallar la matriz inversa",
+			"Aplicación de matrices"
 		]
 	}
 }
