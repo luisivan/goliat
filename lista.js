@@ -18,7 +18,7 @@ for (var i=0; i<lostemas.length; i++) {
 	$('#collapse'+i+' ul.thumbnails').sheetrock({
 	  url: spreadsheet,
 	  sql: "select C,D,E,F,H,G where I=0 and E='"+curso+"' and F='"+subject+"' and G='"+tema+"'",
-	  chunkSize: 5,
+	  //chunkSize: 5,
 	  headersOff: true,
 	  rowHandler: template,
 	  userCallback: function () {
