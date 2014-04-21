@@ -6,6 +6,19 @@ var temas = {
 		"Biología": [
 			"Bioelementos y biomoléculas inorganicas",
 			"Los Glúcidos"
+		],
+		"Filosofía": [
+			"Aristóteles",
+			"Kant",
+			"Descartes",
+			"Platón",
+			"Presocráticos",
+			"Resumen"
+		]
+	},
+	"1º de Bachillerato": {
+		"Lengua Castellana y Literatura": [
+			"LA ORACIÓN SIMPLE. Funciones y sintaxis."
 		]
 	}
 }
