@@ -4,8 +4,7 @@ var temas = {
 			"Matrices"
 		],
 		"Biología": [
-			"Bioelementos y biomoléculas inorganicas",
-			"Los Glúcidos"
+			
 		],
 		"Filosofía": [
 			"Aristóteles",
