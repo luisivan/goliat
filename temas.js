@@ -7,12 +7,14 @@ var temas = {
 			
 		],
 		"Filosofía": [
-			"Aristóteles",
-			"Kant",
-			"Descartes",
-			"Platón",
+			
 			"Presocráticos",
-			"Resumen"
+			"Platón",
+			"Aristóteles",
+			"Descartes",
+			"Kant"
+			
+			
 		]
 	},
 	"1º de Bachillerato": {
