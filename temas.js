@@ -21,9 +21,11 @@ var temas = {
 		"Lengua Castellana y Literatura": [
 			"Los Complementos Verbales",
 			"Los Complementos No Verbales",
-			"La oración simple",
+			"La Oración Simple",
 			"Tipos de Verbos",
-			"Los valores del SE"
+			"Los valores del SE",
+			"La Oración Interrogativa"
+			
 		]
 	}
 }
