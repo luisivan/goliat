@@ -19,7 +19,11 @@ var temas = {
 	},
 	"1º de Bachillerato": {
 		"Lengua Castellana y Literatura": [
-			"LA ORACIÓN SIMPLE. Funciones y sintaxis."
+			"Los Complementos Verbales",
+			"Los Complementos No Verbales",
+			"La oración simple",
+			"Tipos de Verbos",
+			"Los valores del SE"
 		]
 	}
 }
