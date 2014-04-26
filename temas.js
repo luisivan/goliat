@@ -23,7 +23,7 @@ var temas = {
 			"Los Complementos No Verbales",
 			"La Oración Simple",
 			"Tipos de Verbos",
-			"Los valores del SE",
+			"Los Valores del SE",
 			"La Oración Interrogativa"
 			
 		]
