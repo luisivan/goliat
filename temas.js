@@ -28,7 +28,7 @@ var temas = {
 			"La Oración Simple",
 			"Tipos de Verbos",
 			"Los Valores del SE",
-			"La Oración Interrogativa"
+			"La Oración Interrogativa",
 			"Introducción a las coordinadas",
 			"Tipos de oraciones compuestas",
 			"Yuxtapuestas",
