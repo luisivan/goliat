@@ -12,7 +12,11 @@ var temas = {
 			"Platón",
 			"Aristóteles",
 			"Descartes",
-			"Kant"
+			"Kant",
+			"Spinoza",
+			"David Hume",
+			"John Locke"
+			
 			
 			
 		]
@@ -25,6 +29,15 @@ var temas = {
 			"Tipos de Verbos",
 			"Los Valores del SE",
 			"La Oración Interrogativa"
+			"Introducción a las coordinadas",
+			"Tipos de oraciones compuestas",
+			"Yuxtapuestas",
+			"Copulativas",
+			"Adversativas",
+			"Distributivas",
+			"Disyuntivas",
+			"Explicativas"
+			
 			
 		]
 	}
