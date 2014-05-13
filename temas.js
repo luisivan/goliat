@@ -29,15 +29,9 @@ var temas = {
 			"Tipos de Verbos",
 			"Los Valores del SE",
 			"La Oración Interrogativa",
-			"Introducción a las coordinadas",
-			"Tipos de oraciones compuestas",
-			"Yuxtapuestas",
-			"Copulativas",
-			"Adversativas",
-			"Distributivas",
-			"Disyuntivas",
-			"Explicativas"
+			"La Oración Compuesta";
 			
+		
 			
 		]
 	}
