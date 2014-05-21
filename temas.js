@@ -29,7 +29,9 @@ var temas = {
 			"Tipos de Verbos",
 			"Los Valores del SE",
 			"La Oración Interrogativa",
-			"La Oración Compuesta"
+			"La Oración Coordinada",
+			"La Oración Subordinada"
+			
 			
 			
 		
