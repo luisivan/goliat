@@ -4,21 +4,38 @@ var temas = {
 			"Matrices"
 		],
 		"Biología": [
-			"Bioelementos y biomoléculas inorganicas",
-			"Los Glúcidos"
+			
 		],
 		"Filosofía": [
-			"Aristóteles",
-			"Kant",
-			"Descartes",
-			"Platón",
+			
 			"Presocráticos",
-			"Resumen"
+			"Platón",
+			"Aristóteles",
+			"Descartes",
+			"Kant",
+			"Spinoza",
+			"David Hume",
+			"John Locke"
+			
+			
+			
 		]
 	},
 	"1º de Bachillerato": {
 		"Lengua Castellana y Literatura": [
-			"LA ORACIÓN SIMPLE. Funciones y sintaxis."
+			"Los Complementos Verbales",
+			"Los Complementos No Verbales",
+			"La Oración Simple",
+			"Tipos de Verbos",
+			"Los Valores del SE",
+			"La Oración Interrogativa",
+			"La Oración Coordinada",
+			"La Oración Subordinada"
+			
+			
+			
+		
+			
 		]
 	}
 }
