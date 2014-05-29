@@ -42,8 +42,12 @@ body > .container {
 	display: inline-block;
 	margin-bottom: 30px;
 	color: white;
-	background: #35D2AB;
+	background: #ccc;
 	width: 90%;
+}
+
+.subjects a.notempty {
+	background: #35D2AB;
 }
 
 .subjects .col-md-4 {
