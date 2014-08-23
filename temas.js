@@ -19,7 +19,13 @@ var temas = {
 			
 			
 			
-		]
+			
+		],
+		"Lengua y Literatura" : [
+			
+			"Literatura Latina"
+			
+			]
 	},
 	"1º de Bachillerato": {
 		"Lengua Castellana y Literatura": [
@@ -34,8 +40,11 @@ var temas = {
 			
 			
 			
+			
+			
 		
 			
 		]
+
 	}
 }
