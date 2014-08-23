@@ -21,7 +21,7 @@ var temas = {
 			
 			
 		],
-		"Lengua y Literatura" : [
+		"Lengua Castellana y Literatura" : [
 			
 			"Literatura Latina"
 			
