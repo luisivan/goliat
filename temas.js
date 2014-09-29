@@ -44,7 +44,7 @@ var temas = {
 			
 		
 			
-		]
+		],
 		
 		"Historia del Mundo Contemporáneo" : [
 			"La Gran Depresión"
