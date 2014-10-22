@@ -49,7 +49,16 @@ var temas = {
 		"Historia del Mundo Contemporáneo" : [
 			"La Gran Depresión"
 			
+			],
+			
+		"Filosofía" : [
+			
+			"Conceptos Básicos"
+			
+			
 			]
+			
+		
 
-	}
+
 }
