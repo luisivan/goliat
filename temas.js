@@ -3,11 +3,8 @@ var temas = {
 		"Matemáticas aplicadas a las CCSS": [
 			"Matrices"
 		],
-		"Biología": [
-			
-		],
+		"Biología": [],
 		"Filosofía": [
-			
 			"Presocráticos",
 			"Platón",
 			"Aristóteles",
@@ -16,16 +13,10 @@ var temas = {
 			"Spinoza",
 			"David Hume",
 			"John Locke"
-			
-			
-			
-			
 		],
 		"Lengua Castellana y Literatura" : [
-			
 			"Literatura Latina"
-			
-			]
+		]
 	},
 	"1º de Bachillerato": {
 		"Lengua Castellana y Literatura": [
@@ -37,28 +28,14 @@ var temas = {
 			"La Oración Interrogativa",
 			"La Oración Coordinada",
 			"La Oración Subordinada"
-			
-			
-			
-			
-			
-		
-			
 		],
 		
 		"Historia del Mundo Contemporáneo" : [
 			"La Gran Depresión"
-			
-			],
+		],
 			
 		"Filosofía" : [
-			
 			"Conceptos Básicos"
-			
-			
-			]
-			
-		
-
-
+		]
+	}	
 }
