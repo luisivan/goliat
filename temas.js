@@ -16,7 +16,10 @@ var temas = {
 		],
 		"Lengua Castellana y Literatura" : [
 			"Literatura Latina"
-		]
+		],
+		"Inglés" : [
+			"Modal Verbs"
+			]
 	},
 	"1º de Bachillerato": {
 		"Lengua Castellana y Literatura": [
@@ -38,8 +41,7 @@ var temas = {
 			"Conceptos Básicos"
 		],
 		"Inglés" : [
-			"Grammar",
-			"Modal Verbs"
+			"Grammar"
 			]
 	}	
 }
