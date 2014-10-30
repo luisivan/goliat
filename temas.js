@@ -38,7 +38,8 @@ var temas = {
 		],
 			
 		"Filosofía" : [
-			"Conceptos Básicos"
+			"Conceptos Básicos",
+			"Los Presocráticos"
 		],
 		"Inglés" : [
 			"Grammar"
