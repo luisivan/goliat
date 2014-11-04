@@ -1,5 +1,5 @@
 var id = window.location.hash.replace('#', '')
-$('#video').attr('src', 'http://www.youtube.com/embed/'+id)
+$('#video').attr('src', Providers.getEmbedUrl(id))
 
 var spreadsheet = 'https://docs.google.com/spreadsheet/ccc?key=0AnL3gPgElyMKdEdVT1pKR0thR1J5X0RLWHVxR1JaTGc#gid=0',
 	template = Handlebars.compile($('#title-template').html())
