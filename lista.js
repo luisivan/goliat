@@ -22,7 +22,6 @@ for (var i=0; i<lostemas.length; i++) {
 	  rowHandler: template,
 	  userCallback: function () {
 	  	$('a.thumbnail').each(function(i, el) {
-	  		console.loog('uuu')
 	  		var url = $(el).data('link')
 
 	  		$(el).attr('href', 'video.html#'+Providers.getId(url))
