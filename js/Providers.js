@@ -3,7 +3,7 @@ var Providers = {
 	vimeo: {} 
 }
 
-Providers.getId = function(url, cb) {
+Providers.getId = function(url) {
 	if (url.indexOf('youtube.com') !== -1)
 		return 'Y'+url.split('v=')[1].split('&')[0]
 	else
@@ -26,8 +26,11 @@ Providers.getThumb = function(url, cb) {
 
 Providers.youtube.getThumb = function(url, cb) {
 	var video_id = url.split('v=')[1].split('&')[0]
-	
-	cb('http://img.youtube.com/vi/'+video_id+'/mqdefault.jpg')
+
+	if ($(window).width() > 640)
+		cb('http://img.youtube.com/vi/'+video_id+'/mqdefault.jpg')
+	else
+		cb('http://img.youtube.com/vi/'+video_id+'/default.jpg')
 }
 
 Providers.vimeo.getThumb = function(url, cb) {
@@ -39,7 +42,11 @@ Providers.vimeo.getThumb = function(url, cb) {
         jsonp: 'callback',
         dataType: 'jsonp',
         success: function(data){
-            var thumbnail_src = data[0].thumbnail_medium
+        	var thumbnail_src
+        	if ($(window).width() > 640)
+            	thumbnail_src = data[0].thumbnail_medium
+            else
+            	thumbnail_src = data[0].thumbnail_small
             cb(thumbnail_src)
         }
     })

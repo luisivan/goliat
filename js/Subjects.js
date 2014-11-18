@@ -1,4 +1,4 @@
-var temas = {
+var Subjects = {
 	"2º de Bachillerato": {
 		"Matemáticas aplicadas a las CCSS": [
 			"Matrices"
@@ -19,7 +19,7 @@ var temas = {
 		],
 		"Inglés" : [
 			"Modal Verbs"
-			]
+		]
 	},
 	"1º de Bachillerato": {
 		"Lengua Castellana y Literatura": [
@@ -43,6 +43,6 @@ var temas = {
 		],
 		"Inglés" : [
 			"Grammar"
-			]
+		]
 	}	
 }

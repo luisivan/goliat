@@ -6,7 +6,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .well, .navbar-inner, .popover, .btn, .tooltip, input, select, textarea, pre, .progress, .modal, .add-on, .alert, .table-bordered, .nav>.active>a, .dropdown-menu, .tooltip-inner, .badge, .label, .img-polaroid {
-  -moz-box-shadow: none !important;
+  	-moz-box-shadow: none !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
 	border-collapse: collapse !important;
@@ -66,9 +66,12 @@ body > .container {
 	font-size: 29px;
 }
 
-.container > span {
+.navbar-header > span {
 	color:white;
 	line-height: 50px;
+	display: inline-block;
+	width: 200px;
+	margin-left: 15px;
 }
 
 .navbar-fixed-top {
@@ -161,6 +164,11 @@ h1.enviar {
 	font-weight: bold;
 }
 
+.btn.btn-default {
+	word-wrap: break-word;
+	white-space: normal;
+}
+
 .video h1 {
 	margin-left: 20px;
 }
@@ -182,6 +190,21 @@ footer img {
 	margin-left: 250px;
 }
 
+@media only screen and (max-device-width: 480px) {
+	#support {
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+
+	h1.center {
+		font-size: 25px;
+	}
+
+	.jumbotron {
+		margin-top: 65px;
+	}
+}
+
 #contacto {
 	margin-top: 20px;
 }
@@ -193,4 +216,8 @@ footer img {
 .thumbnails .span2 {
 	margin-bottom: 30px;
 	text-align: center;
+}
+
+#help {
+	display: none;
 }
