@@ -28,7 +28,6 @@
       	  		</button>
 		  		<a class="navbar-brand" href="/">Proyecto Goliat</a>
 		  		<span>A lomos de un gigante</span>
-		  		
 			</div>
 		  	<div class="collapse navbar-collapse" id="mobile-collapse">
 		  		<div class="navbar-form navbar-right">
@@ -68,17 +67,24 @@
 </div>
 <script>
 function resize() {
+	console.log($(window).width())
 	if ($(window).width() < 1200 && $(window).width() > 640) {
+		console.log('huge')
 		$('iframe').attr('width', 520)
 	} else if ($(window).width() > 1200) {
+		console.log('medium')
 		$('iframe').attr('width', 640)
+		//$('iframe').attr('height', 360)
 	} else {
-		$('iframe').attr('width', 200)
-		$('iframe').attr('height', 150)
+		console.log('small')
+		$('iframe').attr('width', 200).attr('height', 200)
 	}
 }
 $(window).resize(resize)
-resize()
+
+$('.navbar-nav li').on('click', function() {
+	$('.navbar-collapse').removeClass('in')
+})
 </script>
 	
 	<div class="container">
@@ -94,7 +100,6 @@ resize()
 			<a href="mailto:plataformagoliat@gmail.com" id="contacto">Contacto: plataformagoliat@gmail.com</a>
 	  	</footer>
 	</div>
-
 
     <script id="temas-template" type="text/x-handlebars-template">
       {{#each temas}}
@@ -127,7 +132,6 @@ resize()
 <script id="title-template" type="text/x-handlebars-template">
 	<h1>{{cells.Título}}</h1>
 </script>
-
 
 <script src="js/Templates.js"></script>
 <script src="js/Subjects.js"></script>

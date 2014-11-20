@@ -24,6 +24,7 @@ Router.methods = {
 	landing: function() {
 		Templates.render('landing', null, function() {
 			$('#help').show()
+			resize()
 		})
 	},
 	bach1: function() {
