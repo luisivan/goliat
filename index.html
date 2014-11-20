@@ -67,18 +67,12 @@
 </div>
 <script>
 function resize() {
-	console.log($(window).width())
-	if ($(window).width() < 1200 && $(window).width() > 640) {
-		console.log('huge')
+	if ($(window).width() < 1200 && $(window).width() > 640)
 		$('iframe').attr('width', 520)
-	} else if ($(window).width() > 1200) {
-		console.log('medium')
+	else if ($(window).width() > 1200)
 		$('iframe').attr('width', 640)
-		//$('iframe').attr('height', 360)
-	} else {
-		console.log('small')
+	else
 		$('iframe').attr('width', 200).attr('height', 200)
-	}
 }
 $(window).resize(resize)
 

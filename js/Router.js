@@ -47,6 +47,7 @@ Router.methods = {
 		var id = req.pathname.split('/')[2]
 		Templates.render('video', {video: {src: Providers.getEmbedUrl(id)}}, function() {
 			RenderVideo(id)
+			resize()
 		})
 	},
 	search: function(req) {
