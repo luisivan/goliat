@@ -7,7 +7,7 @@ Templates.render = function(name, vars, cb) {
 
 		$('.jumbotron .container').html(html)
 		$('#help').hide()
-		$(document.body).scrollTop()
+		$(document.body).scrollTop(0)
 		cb && cb.call(this)
 	}.bind(this))
 }
