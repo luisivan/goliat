@@ -19,7 +19,7 @@ function RenderVideoList(course, subject) {
 		  //chunkSize: 5,
 		  headersOff: true,
 		  rowHandler: template,
-		  userCallback: function () {
+		  callback: function () {
 		  	$('a.thumbnail').each(function(i, el) {
 		  		var url = $(el).data('link')
 
